@@ -1,5 +1,7 @@
-var commandLineArgs = process.argv; 'Hello Node'
+var commandLineArgs = process.argv; 
 console.log(commandLineArgs); 
+
+'Hello Node'
 
 
 
