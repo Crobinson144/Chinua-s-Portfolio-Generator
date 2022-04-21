@@ -1,5 +1,2 @@
-var commandLineArgs 'Hello Node' = process.argv; 
-console.log(commandLineArgs);
-
-
-
+var profileDataArgs = process.argv.slice(2, process.argv.length);
+console.log(profileDataArgs);
