@@ -1,2 +1,2 @@
 var commandLineArgs = process.argv;
-console.log(commandLineArgs);
+console.log(commandLineArgs); 'Hello Node'
