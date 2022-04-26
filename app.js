@@ -18,4 +18,9 @@ const printProfileData = profileDataArr => {
 
 printProfileData(profileDataArgs);
 
-const generatePage = () => 'Name: Chinua, Github: ChinuaHUB';
+const generatePage = (userName, githubName) => {
+  return `
+    Name: ${userName}
+    GitHub: ${githubName}
+  `;
+};
