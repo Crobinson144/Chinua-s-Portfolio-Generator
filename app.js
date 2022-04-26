@@ -1,4 +1,10 @@
-const generatePage = (name, github) => {
+const fs = require('fs');
+
+const profileDataArgs = process.argv.slice(2);
+
+const [name, github] = profileDataArgs;
+
+const generatePage = (Chinua, github : Crobinson144) => {
   return `
   <!DOCTYPE html> 
   <html lang="en"> 
@@ -16,3 +22,9 @@ const generatePage = (name, github) => {
   </html>
   `;
 };
+
+fs.writeFile('./index.html', generatePage(name, github), err => {
+  if (err) throw new Error(err);
+
+  console.log('Portfolio complete! Check out index.html to see the output!');
+});
