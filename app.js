@@ -10,7 +10,7 @@ const printProfileData = profileDataArr => {
     console.log(profileDataArr[i]);
   }
 
-  console.log('(generatePage(name, github');
+  console.log('(generatePage(Chinua, Github : Chinuahub');
 
   // Is the same as this...
   profileDataArr.forEach(profileItem => console.log(profileItem));
